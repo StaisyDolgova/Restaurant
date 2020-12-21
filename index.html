@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The best restaurant</title>
+    <meta name="description" content="The best restaurant">
+    <script>document.documentElement.classList.remove("no-js");</script>
+    <link rel="stylesheet" href="css/index-critical.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <div class="header__top"><img class="logo" src="img/logo.svg" width="100" height="100">
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item"><a class="menu__link" href="#dishes">Dishes</a>
+              </li>
+              <li class="menu__item"><a class="menu__link" href="#quotes">Quotes</a>
+              </li>
+              <li class="menu__item"><a class="menu__link" href="#features">Features</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__bottom">
+          <h1 class="header__title">The best restaurant</h1>
+          <p class="header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dolor id nulla gravida blandit.</p><a class="header__btn btn" href="#">book a table</a>
+        </div>
+      </div>
+    </header>
+    <section class="dishes" id="dishes">
+      <div class="dishes__container container">
+        <h2 class="dishes__title title">Our dishes</h2>
+        <div class="dishes__slider swiper-container"> 
+          <div class="dishes__wrapper swiper-wrapper">
+                    <div class="dishes__slide swiper-slide"><a class="dishes__link" href="#">
+                        <picture>
+                          <source type="image/webp" srcset="img/dishes-1.webp"><img class="dishes__slide-img" src="img/dishes-1.jpg" alt="" width="300" height="300">
+                        </picture>
+                        <h3 class="dishes__slide-title">burger</h3></a></div>
+                    <div class="dishes__slide swiper-slide"><a class="dishes__link" href="#">
+                        <picture>
+                          <source type="image/webp" srcset="img/dishes-2.webp"><img class="dishes__slide-img" src="img/dishes-2.jpg" alt="" width="300" height="300">
+                        </picture>
+                        <h3 class="dishes__slide-title">steak</h3></a></div>
+                    <div class="dishes__slide swiper-slide"><a class="dishes__link" href="#">
+                        <picture>
+                          <source type="image/webp" srcset="img/dishes-4.webp"><img class="dishes__slide-img" src="img/dishes-4.jpg" alt="" width="300" height="300">
+                        </picture>
+                        <h3 class="dishes__slide-title">pasta</h3></a></div>
+                    <div class="dishes__slide swiper-slide"><a class="dishes__link" href="#">
+                        <picture>
+                          <source type="image/webp" srcset="img/dishes-3.webp"><img class="dishes__slide-img" src="img/dishes-3.jpg" alt="" width="300" height="300">
+                        </picture>
+                        <h3 class="dishes__slide-title">pizza</h3></a></div>
+          </div>
+          <div class="dishes__pagination swiper-pagination"></div>
+          <div class="dishes__btn dishes__btn--left swiper-button-prev"></div>
+          <div class="dishes__btn dishes__btn--right swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <section class="quotes" id="quotes">
+      <div class="quotes__container container">
+        <h2 class="quotes__title visually-hidden">quotes our chef</h2>
+        <blockquote class="quotes__content">
+          <p class="quotes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+          <cite class="quotes__cite">Paul Tasty, chef</cite>
+        </blockquote>
+        <picture>
+          <source type="image/webp" srcset="img/quotes-1.webp"><img class="quotes__img" src="img/quotes-1.png" alt="Paul Tasty, chef">
+        </picture>
+      </div>
+    </section>
+    <section class="features" id="features">
+      <div class="features__container container">
+        <h2 class="features__title title">features</h2>
+        <ul class="features__list">
+          <li class="features__item"> 
+            <h3 class="features__item-title">200+ coctails</h3>
+            <p class="features__item-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Huge burgers</h3>
+            <p class="features__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="sale">
+      <div class="sale__container container">
+        <h2 class="sale__title visually-hidden">ours sales</h2><a class="sale__link title" href="#">delicious breakfast</a>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact__container container">
+        <h2 class="contact__title visually-hidden">contact us</h2>
+        <p class="contact__subtitle subtitle">Call us to book a table</p><a class="contact__tel" href="tel:+01234567890">01234567890</a>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container container"><img class="logo" src="img/logo.svg" width="100" height="100">
+        <nav class="footer__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link" href="#dishes">Dishes</a>
+            </li>
+            <li class="menu__item"><a class="menu__link" href="#quotes">Quotes</a>
+            </li>
+            <li class="menu__item"><a class="menu__link" href="#features">Features</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
