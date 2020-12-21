@@ -198,11 +198,13 @@ body {
     align-self: start;
   }
   .header {
-    background-image: url("img/header-bg.jpg");
-  }
-  .webp .header {
     background-image: url("img/header-bg.webp");
   }
+  .no-js .header,
+  .no-webp .header {
+    background-image: url("img/header-bg.jpg");
+  }
+
   .header__top {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -252,18 +254,19 @@ body {
 }
 @media (orientation: landscape) {
   .header {
-    background-image: url("img/header-bg-630.jpg");
-  }
-  .webp .header {
     background-image: url("img/header-bg-630.webp");
+  }
+  .no-js .header,
+  .no-webp .header {
+    background-image: url("img/header-bg-630.jpg");
   }
 }
 @media (orientation: portrait) {
   .header {
-    background-image: url("img/header-bg-portrain.jpg");
-  }
-  .webp .header {
     background-image: url("img/header-bg-portrain.webp");
   }
-
+  .no-js .header,
+  .no-webp .header {
+    background-image: url("img/header-bg-portrain.jpg");
+  }
 }
