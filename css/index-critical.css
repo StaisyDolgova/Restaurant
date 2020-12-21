@@ -197,8 +197,7 @@ body {
     -ms-flex-item-align: start;
     align-self: start;
   }
-  .no-js .header,
-  .no-webp .header {
+  .header {
     background-image: url("img/header-bg.jpg");
   }
   .webp .header {
@@ -252,8 +251,7 @@ body {
   }
 }
 @media (orientation: landscape) {
-  .no-js .header,
-  .no-webp .header {
+  .header {
     background-image: url("img/header-bg-630.jpg");
   }
   .webp .header {
@@ -261,8 +259,7 @@ body {
   }
 }
 @media (orientation: portrait) {
-  .no-js .header,
-  .no-webp .header {
+  .header {
     background-image: url("img/header-bg-portrain.jpg");
   }
   .webp .header {
